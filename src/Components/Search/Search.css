@@ -1,9 +1,6 @@
-form {
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
+.search {
     height: 100vh;
+    margin: auto;
 }
 
 .search {

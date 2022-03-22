@@ -41,15 +41,12 @@ const Search = () => {
     return (
         <div className="search">
             <form>
-                <div>
                     <label>Departure</label>
                     <input type="radio" name="search_type" value="departure" onChange={handleChange} ></input>
 
                     <input type="radio" name="search_type" value="return" onChange={handleChange} ></input>
                     <label>Return</label>
-                </div>
             </form>
-
             {
                 fromData.showSearch &&
                 <form>
@@ -73,6 +70,7 @@ const Search = () => {
 
                 </form>
             }
+            
         </div>
     );
 };

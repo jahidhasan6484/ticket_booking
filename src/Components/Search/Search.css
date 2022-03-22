@@ -1,0 +1,11 @@
+form {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.search {
+    text-align: center;
+}
